@@ -1,0 +1,138 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Universidad del Norte_Iniciar Sesión</title>
+  <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+.align{
+  display: grid;
+  place-items: center;
+}
+.grid {
+  inline-size: 90%;
+  margin-inline: auto;
+  max-inline-size: 20rem;
+}
+* {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  background: -webkit-linear-gradient( #F5EFE7, #e5ded9,#c3d1e7);
+  background: linear-gradient( #F5EFE7, #e5ded9,#c3d1e7); 
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  min-block-size: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  color: #c9c0c0;
+  outline: 0;
+  text-decoration: none;
+}
+input {
+  background-image: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  transition: background-color 0.3s;
+}
+input[type="submit"] {
+  cursor: pointer;
+  text-decoration: none;
+}
+.form {
+  display: grid;
+  gap: 0.875rem;
+}
+.form input[type="password"],
+.form input[type="text"],
+.submitButton {
+  inline-size: 100%;
+}
+.form_field {
+  display: flex;
+}
+.form_input {
+  flex: 1;
+}
+.login {
+  color: #eee;
+}
+.login label,
+.login input[type="text"],
+.login input[type="password"],
+.submitButton {
+  border-radius:0.25rem;
+  padding: 1rem;
+}
+.login label {
+  background-color: #213555;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-inline: 1.25rem;
+}
+.login input[type="password"],
+.login input[type="text"] {
+  background-color: #213555;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.login input[type="password"]:hover,
+.login input[type="text"]:hover {
+  background-color: #89aede;
+}
+.submitButton {
+  background-color: #270cbf;
+  color: #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.submitButton:hover {
+  background-color: #5e37ec;
+}
+p {
+  margin-block: 1.5rem;
+}
+.text--center {
+  text-align: center;
+}
+
+
+
+</style>
+<body class="align">
+  <div class="grid">
+    <form  method="" class="form login">
+      <div class="form_field">
+        <label><i class="fa fa-user" style="color: #ffffff;"></i></label>
+        <input type="text" name="username" class="form_input" placeholder="Usuario" >
+      </div>
+      <div class="form_field">
+        <label><i class="fa fa-lock" style="color: #F5EFE7;"></i></label>
+        <input type="password" name="password" class="form_input" placeholder="Contraseña" >
+      </div>
+      <div class="form_field">
+        <button class="submitButton" type="submit" style="font-family: 'Poppins', sans-serif;"><a href="Bienvenido.html">Iniciar</a></button>
+      </div>
+    </form>
+    <p class="text--center">No tienes cuenta? <a href="Register.html">Registrarse</a></p>
+  </div>
+</body>
+</html>
+

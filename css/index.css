@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.full-background {
+    height: 100vh;
+    width: 100%;
+    background: url('../Imagenes/fondo_bienvenido.png') center center / cover no-repeat;
+    filter: brightness(90%);
+}
+
+.full-background h1 {
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+    text-rendering: optimizeLegibility;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.uni h1 {
+    color: aliceblue;
+    text-align: left;
+    padding-top: 150px;
+    margin-left: 190px;
+    font-size: 50px;
+    text-rendering: optimizeLegibility;
+
+
+}
+
+.uni h2 {
+    color: white;
+    margin-left: 320px;
+    font-size: 50px;
+}
+
+.container2 {
+    display: flex;
+    padding: -100px 20px;
+}
+
+.container2 buttons {
+    align-items: end;
+    justify-content: space-between;
+}
+
+.buttonModificar {
+    background-color: #38C208;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.buttonModificar:hover {
+    background-color: #b5e9a4;
+}
+
+.buttonEliminar {
+    background-color: #D40719;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttonEliminar:hover {
+    background-color: #e78d94;
+}
+
+.buttonCal {
+    background-color: #1C3879;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttonCal :hover {
+    background-color: #5f6f96;
+}
+
+.Salir a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.name-container {
+    width: 70%;
+    height: 50%;
+    background-color: #F9F5EB;
+    border-radius: 30px;
+    padding: 0px 20px;
+}
+
+h3 {
+    background-color: #F9F5EB;
+    color: #607EAA;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.nombre {
+    margin-left: -20px;
+    padding-top: 70px;
+}
+
+.nombre h3 {
+    margin-left: 20px;
+}
+
+.cuenta-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.cuenta-section button {
+    background-color: #F9F5EB;
+    border: none;
+    border-radius: 20px;
+}
+
+.cuenta-section button a:hover {
+    color: #e97d86;
+}
+
+.Agregar {
+    border: none;
+    background-color: #5f6f96;
+    margin-top: -20px;
+    padding: 9px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.Agregar:hover {
+    background-color: #bcc6df;
+}
+
+.container-fluid .navbar-toggler:hover {
+    color: white;
+}
+
+.formulario-container {
+    display: contents;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.formulario label {
+    font-size: 15px;
+    display: flex;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.formulario input {
+    font-size: 20px;
+    display: flex;
+}
+
+.formulario button {
+    display: flex;
+    border: none;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+
+    align-items: center;
+}
+
+.cerrar {
+    background-color: #D40719;
+}
+
+.FormGuardar {
+    background-color: #1C3879;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    align-content: center;
+}
+
+.cerrar {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+.buttonCal {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  .buttonCal {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  .tabla-emergente {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 9999;
+  }
+  .tabla-emergente button{
+    color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  

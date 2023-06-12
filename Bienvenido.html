@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universidad del Norte</title>
+
+  <link rel="icon" type="image/png" href="img/imager1.png" />
+
+  <!-- BootStrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <!-- Hover -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+    integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- CSS personalizado -->
+  <link href="css/index.css" rel="stylesheet" />
+  <!-- BootStrap iconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <!-- Fonts -->
+
+</head>
+
+
+<body>
+
+  <!-- Inicio -->
+  <section id="Inicio">
+    <div class="full-background">
+      <h1> Bienvenido , Profesor Ricardo <br> </h1>
+      <nav class="navbar navbar-expand-lg align-top" id="Inicio">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation" style="border: none;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Inicio" style="margin: 0 200px;">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Alumnos" style="margin: 0 200px;">Alumnos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Salir" style="margin: 0 200px;">Salir</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="uni">
+        <h1>Universidad del <br> </h1>
+        <h2>Norte</h2>
+      </div>
+    </div>
+  </section>
+  <!-- Alumnos -->
+  <section id="Alumnos">
+    <div class="container-fluid py-05 m-0 p-5" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 style="font-family: 'Poppins', sans-serif;color: #1C3879;height: 200px;font-weight: bold;">
+              Alumnos
+            </h1>
+            <button class="Agregar" onclick="mostrarFormulario()"> + Agregar Alumno</button>
+          </div>
+          <!-- alumno1 -->
+          <div class="row" data-aos="fade-up">
+            <div class="col-12 col-md-0 py-2" style="color: black">
+              <div class="container2 ">
+                <div class="name-container ">
+                  <h2 class="name">1. Juan Carlos Ortiz Espino</h2>
+                </div>
+                <div class="buttons col-6" style="margin-left: 10px;padding: 10px 20px;">
+                  <button class="buttonModificar" onclick="mostrarFormulario()">Modificar</button>
+                  <button class="buttonEliminar " onclick="mostrarAlerta()">Eliminar</button>
+                  <button class="buttonCal" onclick="mostrarTabla()">Calificaciones</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- alumno3 -->
+          <div class="row" data-aos="fade-up">
+            <div class="col-12 col-md-0 py-2" style="color: black">
+              <div class="container2 ">
+                <div class="name-container ">
+                  <h2 class="name">2. Juan Carlos Ortiz Espino</h2>
+                </div>
+                <div class="buttons col-6" style="margin-left: 10px;padding: 10px 20px;">
+                  <button class="buttonModificar" onclick="mostrarFormulario()">Modificar</button>
+                  <button class="buttonEliminar " onclick="mostrarAlerta()">Eliminar</button>
+                  <button class="buttonCal" onclick="mostrarTabla()">Calificaciones</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up">
+            <div class="col-12 col-md-0 py-2" style="color: black">
+              <div class="container2 ">
+                <div class="name-container ">
+                  <h2 class="name">3. Juan Carlos Ortiz Espino</h2>
+                </div>
+                <div class="buttons col-6" style="margin-left: 10px;padding: 10px 20px;">
+                  <button class="buttonModificar" onclick="mostrarFormulario()">Modificar</button>
+                  <button class="buttonEliminar " onclick="mostrarAlerta()">Eliminar</button>
+                  <button class="buttonCal" onclick="mostrarTabla()">Calificaciones</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up">
+            <div class="col-12 col-md-0 py-2" style="color: black">
+              <div class="container2 ">
+                <div class="name-container ">
+                  <h2 class="name">4. Juan Carlos Ortiz Espino</h2>
+                </div>
+                <div class="buttons col-6" style="margin-left: 10px;padding: 10px 20px;">
+                  <button class="buttonModificar" onclick="mostrarFormulario()">Modificar</button>
+                  <button class="buttonEliminar " onclick="mostrarAlerta()">Eliminar</button>
+                  <button class="buttonCal" onclick="mostrarTabla()">Calificaciones</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up">
+            <div class="col-12 col-md-0 py-2" style="color: black">
+              <div class="container2 ">
+                <div class="name-container ">
+                  <h2 class="name">5. Juan Carlos Ortiz Espino</h2>
+                </div>
+                <div class="buttons col-6" style="margin-left: 10px;padding: 10px 20px;">
+                  <button class="buttonModificar" onclick="mostrarFormulario()">Modificar</button>
+                  <button class="buttonEliminar " onclick="mostrarAlerta()">Eliminar</button>
+                  <button class="buttonCal" onclick="mostrarTabla()">Calificaciones</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br><br>
+  </section>
+  <!-- Cuenta -->
+  <section class="cuenta-section" id="Salir">
+
+    <button class="Salir" style="background-color: #D40719; color: white;"><a
+        href="Principal/Inicio.html">Salir del
+        Sitio</a></button>
+  </section>
+  <!-- Formulario Modificar-->
+  <div class="formulario-container" id="formularioContainer">
+    <div class="formulario">
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" required>
+
+        <label for="correo">Matrícula:</label>
+        <input type="number" id="correo" required>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" required>
+
+        <label for="correo">Documentos:
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_jjui4rud.json" background="transparent"
+            speed="1" style="width: 100px; height: 50px;margin-left: 70px;margin-top: -5px;" loop
+            autoplay></lottie-player>
+        </label>
+
+        <button type="" class="FormGuardar"> Guardar </button>
+      </form>
+      <button class="cerrar" onclick="cerrarFormulario()">Cerrar</button>
+    </div>
+  </div>
+<!-- Tabla -->
+<div id="tablaCalificaciones" class="tabla-emergente">
+  <table>
+    <tr>
+      <th>Calificación</th>
+    </tr>
+    <tr>
+      <td>Parcial 1 : <input type="text" id="calificacion1" placeholder="Parcial 1" value="10"></td>
+    </tr>
+    <tr>
+      <td>Parcial 2 : <input type="text" id="calificacion1" placeholder="Parcial 2" value="10"></td>
+    </tr>
+    <tr>
+      <td>Parcial 3 : <input type="text" id="calificacion1" placeholder="Parcial 3" value="10"></td>
+    </tr>
+  </table>
+  <button class="FormGuardar" style="color: white;" onclick="guardarCalificaciones()">Guardar</button>
+  <button class="cerrar" onclick="cerrarTabla()">Cerrar</button>
+</div>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="js/index.js"></script>
+</body>
+
+</html>

@@ -50,10 +50,7 @@ input {
   padding: 0;
   transition: background-color 0.3s;
 }
-input[type="submit"] {
-  cursor: pointer;
-  text-decoration: none;
-}
+
 .form {
   display: grid;
   gap: 0.875rem;
@@ -121,14 +118,14 @@ p {
     <form  method="" class="form login">
       <div class="form_field">
         <label><i class="fa fa-user" style="color: #ffffff;"></i></label>
-        <input type="text" name="username" class="form_input" placeholder="Usuario" >
+        <input type="text" name="" class="form_input" placeholder="Usuario" >
       </div>
       <div class="form_field">
         <label><i class="fa fa-lock" style="color: #F5EFE7;"></i></label>
-        <input type="password" name="password" class="form_input" placeholder="Contraseña" >
+        <input type="password" name="" class="form_input" placeholder="Contraseña" >
       </div>
-      <div class="form_field">
-        <button class="submitButton" type="submit" style="font-family: 'Poppins', sans-serif;"><a href="Bienvenido.html">Iniciar</a></button>
+      <div class="">
+        <button class="submitButton" type="button" style="font-family: 'Poppins', sans-serif;" onclick="window.location.href='Inicio.html'">Iniciar</button>
       </div>
     </form>
     <p class="text--center">No tienes cuenta? <a href="Register.html">Registrarse</a></p>
